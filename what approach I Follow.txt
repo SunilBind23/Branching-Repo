@@ -1,8 +1,11 @@
 In your work experience what approach you follow to test the api
 
+<<<<<<< HEAD
 
 This line added for test purpose
 
+=======
+>>>>>>> DevBranch
  1. Understanding API Requirements:   
  First, I analyze API documentation (like Swagger or Postman collections) to understand the endpoints, request methods (GET, POST, PUT, DELETE), input parameters, authentication types, and expected responses. I ensure clarity on the business logic behind each API.
 
