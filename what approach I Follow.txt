@@ -1,0 +1,36 @@
+In your work experience what approach you follow to test the api
+
+
+This line added for test purpose
+
+ 1. Understanding API Requirements:   
+ First, I analyze API documentation (like Swagger or Postman collections) to understand the endpoints, request methods (GET, POST, PUT, DELETE), input parameters, authentication types, and expected responses. I ensure clarity on the business logic behind each API.
+
+ 2. Manual API Testing with Postman:
+ I start by testing each endpoint manually in Postman to validate:  
+  Status Codes: Checking for 200, 201, 400, 401, 403, 404, 500 based on scenarios.  
+  Response Payload:  Verifying response data structure (JSON/XML) and correctness.  
+  Headers & Authentication:  Testing headers like 'Content-Type', and authentication methods such as Bearer Tokens or Basic Auth.  
+  Negative Testing:  Sending invalid inputs to check error handling and security responses.  
+  Boundary Testing:  Testing with maximum and minimum data values.
+
+ 3. Automation of API Testing with RestAssured:   
+ After successful manual testing, I automate test cases using  RestAssured  with  TestNG  for structured test execution.  
+My automation approach includes:  
+Writing  data-driven tests  for multiple input scenarios.  
+Validating  response time  for performance checks.  
+Asserting  response body fields , status codes, and headers using RestAssured matchers.  
+ Generating  extent reports  for better visibility on test results.
+
+ 4. Functional and Security Testing:   
+ Functional Checks:  Ensuring the API performs its intended function across all expected inputs.  
+
+
+
+ 5. Regression Testing & Continuous Integration:   
+ After any code deployment or bug fix, I run a  regression suite  of automated API tests.  
+These are integrated with  Jenkins , ensuring tests are triggered automatically on every build.
+
+6. Reporting & Documentation:   
+For manual tests, I log results in  JIRA  and update test cases accordingly.  
+For automated runs,  Jenkins  provides build reports, and I also generate detailed  extent reports  for stakeholders.
